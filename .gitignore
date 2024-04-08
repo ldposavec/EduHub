@@ -1,1 +1,5 @@
+# ignore hidden files created by IDE
 .idea/
+.vs/
+
+# TO-DO - ignore bin and obj files created by IDE
