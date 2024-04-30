@@ -1,6 +1,6 @@
-using InfoedukaWebApp.Components;
+using EduHub.Components;
 
-namespace InfoedukaWebApp;
+namespace EduHub;
 
 public class Program
 {
