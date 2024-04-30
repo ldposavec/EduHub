@@ -1,3 +1,8 @@
+> [!CAUTION]
+> **Važne stvari za projekt**
+>
+> [GIT Cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
+
 # Requirements
 ### Generalno
 - obavijest i prijenos materijala
@@ -36,7 +41,7 @@
 
 &nbsp;
 
-# Resources
+> # Resources
 > [C# General Documentation](https://learn.microsoft.com/en-us/dotnet/csharp/)
 >
 > [ASP.NET Core & Blazor Documentation](https://learn.microsoft.com/en-us/aspnet/core/blazor/?view=aspnetcore-8.0)
