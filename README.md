@@ -1,5 +1,5 @@
 > [!CAUTION]
-> **Važne stvari za projekt**
+> **Važne stvari vezane za projekt**
 >
 > [GIT Cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
 
