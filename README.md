@@ -1,4 +1,4 @@
-<!-- PROJECT SHIELDS-->
+<!-- PROJECT SHIELDS a-->
 ## Meet the team
 [![GitHub][github-shield-01]][owner-url]
 [![GitHub][github-shield-02]][collaborator-url-01]
