@@ -1,6 +1,14 @@
-<!-- PROJECT SHIELDS - TODO-->
+<!-- PROJECT SHIELDS-->
+## Meet the team
+[![GitHub][github-shield-01]][owner-url]
+[![GitHub][github-shield-02]][collaborator-url-01]
+[![GitHub][github-shield-03]][collaborator-url-02]
+[![GitHub][github-shield-04]][collaborator-url-03]
 
-
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
 <!-- PROJECT LOGO -->
 <br />
@@ -10,6 +18,13 @@
   </a>
 
 <h3 align="center">EduHub</h3>
+
+*"Be the the right kind of addict"*
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
   <p align="center">
     EduHub is a platform that provides a modern solution for interaction between students and teachers.
@@ -73,6 +88,7 @@ Here's a blank template to get started....
 ## Built With
 
 ### Languages & Frameworks
+![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white)
 ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
 ![Blazor](https://img.shields.io/badge/blazor-%235C2D91.svg?style=for-the-badge&logo=blazor&logoColor=white)
 
@@ -226,6 +242,15 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [product-screenshot]: GitHub-resources/screenshot.png
+[github-shield-01]: https://img.shields.io/badge/TomislavS23-%23222222.svg?style=for-the-badge&logo=github&logoColor=white
+[github-shield-02]: https://img.shields.io/badge/antonelaabicic-%23222222.svg?style=for-the-badge&logo=github&logoColor=white
+[github-shield-03]: https://img.shields.io/badge/ldposavec-%23222222.svg?style=for-the-badge&logo=github&logoColor=white
+[github-shield-04]: https://img.shields.io/badge/petrazdericc-%23222222.svg?style=for-the-badge&logo=github&logoColor=white
+
+[owner-url]: https://github.com/TomislavS23
+[collaborator-url-01]: https://github.com/antonelaabicic
+[collaborator-url-02]: https://github.com/ldposavec
+[collaborator-url-03]: https://github.com/petrazdericc
 
 &nbsp;
 &nbsp;
