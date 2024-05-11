@@ -6,4 +6,19 @@
         <ImplicitUsings>enable</ImplicitUsings>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Compile Remove="NewFolder\**" />
+      <Content Remove="NewFolder\**" />
+      <EmbeddedResource Remove="NewFolder\**" />
+      <None Remove="NewFolder\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="wwwroot\Pictures\book-solid.svg" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\DataLayer\DataLayer.csproj" />
+    </ItemGroup>
+
 </Project>

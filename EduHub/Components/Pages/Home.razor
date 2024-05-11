@@ -2,6 +2,59 @@
 
 <PageTitle>Home</PageTitle>
 
-<h1>Hello, world!</h1>
+<section class="h-100 gradient-form">
+    <div class="container h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-lg-4">
+                <div class="card rounded-3 text-black">
+                    <div class="card-body p-md-5 mx-md-4">
 
-Welcome to your new app.
+                        <div class="text-center">
+                            <img src="./pictures/book-solid.svg" style="width: 75px; height: auto;" alt="logo">
+                        </div>
+
+                        <form class="mt-5">
+
+                            <div data-mdb-input-init class="form-outline mb-4">
+                                <label class="form-label" for="role">Role:</label>
+                                <select id="role" class="form-select" @onclick="togglePlaceholderVisibility">
+                                    <option value="" disabled selected hidden>Select a role...</option> <!-- placeholder -->
+                                    @foreach (var role in Enum.GetValues(typeof(DataLayer.Models.Role)))
+                                    {
+                                        <option value="@role">@role</option>
+                                    }
+                                </select>
+                            </div>
+
+                            <div data-mdb-input-init class="form-outline mb-4">
+                                <label class="form-label" for="usernameLogin">Username:</label>
+                                <input type="email" id="usernameLogin" class="form-control" placeholder="Username" />
+                            </div>
+
+                            <div data-mdb-input-init class="form-outline mb-4">
+                                <label class="form-label" for="passwordLogin">Password:</label>
+                                <input type="password" id="passwordLogin" class="form-control" placeholder="Password" />
+                            </div>
+
+                            <div class="text-center pt-1 mb-5 pb-1">
+                                <button data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type="button">
+                                    Login
+                                </button>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@code{
+    private bool isPlaceholderVisible = true;
+
+    private void togglePlaceholderVisibility()
+    {
+        isPlaceholderVisible = false;
+    }
+}
