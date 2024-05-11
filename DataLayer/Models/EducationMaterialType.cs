@@ -8,8 +8,8 @@ namespace DataLayer.Models
 {
     public enum EducationMaterialType
     {
-        Predavanja,
-        Vjezbe,
-        Ostalo
+        Lecture,
+        Esercise,
+        Other
     }
 }

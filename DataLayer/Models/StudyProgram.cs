@@ -8,7 +8,7 @@ namespace DataLayer.Models
 {
     public enum StudyProgram
     {
-        ProgramskoInzenjerstvo,
-        SistemskoInzenjerstvo
+        SoftwareEngineering,
+        SystemEngineering
     }
 }

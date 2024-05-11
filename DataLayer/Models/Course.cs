@@ -14,7 +14,7 @@ namespace DataLayer.Models
         public int Ects { get; set; }
         public List<Outcome> Outcomes { get; set; }
         public Teacher Teacher { get; set; }
-        public Grade Grade { get; set; }
+        public Grade Grade { get; set; } // 1 - 1 ???
         public StudyProgram StudyProgram { get; set; }
     }
 }
